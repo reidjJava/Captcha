@@ -1,0 +1,8 @@
+sendPlayerTo: 'hub'
+inventoryTitle: '§d§lПройдите капчу'
+kickMessage: '§dElysiumWorld §cПовторите попытку'
+correctItemTitle: '§a§oПройти капчу'
+incorrectItemTitle: '§c§oНе нажимать'
+errorConnectMessage: '§8[§ci§8] §fОшибка при попытке подключения к'
+failedToEnter: '§dElysiumWorld §cВремя вышло! Повторите попытку'
+timeout: 40
