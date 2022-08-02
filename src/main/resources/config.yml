@@ -1,8 +1,16 @@
+# the server to which the player will be transferred after passing the captcha
 sendPlayerTo: 'hub'
-inventoryTitle: '§d§lПройдите капчу'
-kickMessage: '§dElysiumWorld §cПовторите попытку'
-correctItemTitle: '§a§oПройти капчу'
-incorrectItemTitle: '§c§oНе нажимать'
-errorConnectMessage: '§8[§ci§8] §fОшибка при попытке подключения к'
-failedToEnter: '§dElysiumWorld §cВремя вышло! Повторите попытку'
+# name in the upper left corner of the inventory
+inventoryTitle: '&d&lПройдите капчу'
+# message when captcha fails
+kickMessage: '§cПовторите попытку'
+# the name of the item you need to click on to complete the captcha
+correctItemTitle: '&a&oПройти капчу'
+# the name of the item you need to click on to fail the captcha
+incorrectItemTitle: '&c&oНе нажимать'
+# error displayed on unsuccessful connection to the server
+errorConnectMessage: '&8[&ci&8] §fОшибка при попытке подключения к'
+# the message that will be displayed if the captcha is not entered
+failedToEnter: '§cВремя вышло! Повторите попытку'
+# time after which the player will be kicked if the captcha is not entered
 timeout: 40
