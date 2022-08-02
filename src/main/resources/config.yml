@@ -1,16 +1,16 @@
 # the server to which the player will be transferred after passing the captcha
 sendPlayerTo: 'hub'
 # name in the upper left corner of the inventory
-inventoryTitle: '&d&lПройдите капчу'
+inventoryTitle: '&d&lPass the captcha'
 # message when captcha fails
-kickMessage: '§cПовторите попытку'
+kickMessage: '§cTry again'
 # the name of the item you need to click on to complete the captcha
-correctItemTitle: '&a&oПройти капчу'
+correctItemTitle: '&a&oPass captcha'
 # the name of the item you need to click on to fail the captcha
-incorrectItemTitle: '&c&oНе нажимать'
+incorrectItemTitle: '&c&oDo not press'
 # error displayed on unsuccessful connection to the server
-errorConnectMessage: '&8[&ci&8] §fОшибка при попытке подключения к'
+errorConnectMessage: '&8[&ci&8] §fError when trying to connect to'
 # the message that will be displayed if the captcha is not entered
-failedToEnter: '§cВремя вышло! Повторите попытку'
+failedToEnter: '§cTime is over! Try again'
 # time after which the player will be kicked if the captcha is not entered
 timeout: 40
